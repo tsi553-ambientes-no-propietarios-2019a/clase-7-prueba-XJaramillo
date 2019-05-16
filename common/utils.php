@@ -6,7 +6,7 @@ function redirect($url) {
 	exit;
 }
 
-$conn = new mysqli('localhost', 'root', '', 'prueba1');
+$conn = new mysqli('localhost', 'root', '1234', 'pruebab1');
 
 if($conn->connect_error) {
 	echo 'Existe Error con la base' . $conn->connect_error;
